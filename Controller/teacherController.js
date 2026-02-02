@@ -31,7 +31,7 @@ exports.loginController=async(req,res)=>{
             {expiresIn:'2d'}
         )
        return res.status(200).send({
-            message:`${user.role} Login is done`,
+            message:`${user.role} Login is successfully`,
             token:token,
             role:user.role
         })
