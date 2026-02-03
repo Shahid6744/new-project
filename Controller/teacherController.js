@@ -40,7 +40,3 @@ exports.loginController=async(req,res)=>{
         res.status(500).send({message:'internal error'})
     }
 }
-
-function abc () {
-    
-}
